@@ -21,7 +21,7 @@ router.use(async (req, res, next) => {
   } catch (e) {
     res.json({
       status: "fail",
-      message: "Não foi possível acessar está pagina",
+      message: "Unable to access this page",
     });
   }
 });
